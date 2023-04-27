@@ -13,7 +13,7 @@ plugins {
 android {
     namespace = "de.salomax.currencies"
     compileSdk = 33
-    buildToolsVersion = "33.0.1"
+    buildToolsVersion = "33.0.2"
 
     defaultConfig {
         applicationId = "de.salomax.currencies"

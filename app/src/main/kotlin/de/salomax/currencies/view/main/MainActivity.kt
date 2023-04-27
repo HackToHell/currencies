@@ -456,6 +456,10 @@ class MainActivity : BaseActivity() {
         viewModel.delete()
     }
 
+    fun deleteAllEvent(@Suppress("UNUSED_PARAMETER") view: View) {
+        viewModel.clear()
+    }
+
     /*
      * keyboard: do some calculations
      */

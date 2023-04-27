@@ -50,12 +50,12 @@
             android:text="9"
             android:textAppearance="@style/AppTheme.TextAppearance.Keypad"
             app:layout_constraintBottom_toBottomOf="@+id/btn_7"
-            app:layout_constraintEnd_toStartOf="@id/btn_divide"
+            app:layout_constraintEnd_toStartOf="@id/btn_plus"
             app:layout_constraintStart_toEndOf="@id/btn_8"
             app:layout_constraintTop_toTopOf="@+id/btn_7" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_divide"
+            android:id="@+id/btn_plus"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="?selectableItemBackgroundBorderless"
@@ -103,12 +103,12 @@
             android:text="6"
             android:textAppearance="@style/AppTheme.TextAppearance.Keypad"
             app:layout_constraintBottom_toBottomOf="@+id/btn_4"
-            app:layout_constraintEnd_toStartOf="@id/btn_multiply"
+            app:layout_constraintEnd_toStartOf="@id/btn_negativ"
             app:layout_constraintStart_toEndOf="@id/btn_5"
             app:layout_constraintTop_toTopOf="@+id/btn_4" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_multiply"
+            android:id="@+id/btn_negativ"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="?selectableItemBackgroundBorderless"
@@ -156,12 +156,12 @@
             android:text="3"
             android:textAppearance="@style/AppTheme.TextAppearance.Keypad"
             app:layout_constraintBottom_toBottomOf="@+id/btn_1"
-            app:layout_constraintEnd_toStartOf="@id/btn_subtract"
+            app:layout_constraintEnd_toStartOf="@id/btn_multi"
             app:layout_constraintStart_toEndOf="@id/btn_2"
             app:layout_constraintTop_toTopOf="@+id/btn_1" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_subtract"
+            android:id="@+id/btn_multi"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="?selectableItemBackgroundBorderless"
@@ -209,13 +209,13 @@
             android:onClick="deleteEvent"
             android:src="@drawable/ic_backspace"
             app:layout_constraintBottom_toBottomOf="@+id/btn_0"
-            app:layout_constraintEnd_toStartOf="@id/btn_add"
+            app:layout_constraintEnd_toStartOf="@id/btn_divide"
             app:layout_constraintStart_toEndOf="@id/btn_decimal"
             app:layout_constraintTop_toTopOf="@+id/btn_0"
             tools:ignore="ContentDescription" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_add"
+            android:id="@+id/btn_divide"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="?selectableItemBackgroundBorderless"
